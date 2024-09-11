@@ -1,0 +1,109 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+body {
+    text-align : center;
+    background-color: #548683;
+}
+.heading{
+    color:azure;
+    font-size:8vmin;
+    box-shadow: 0 0 1rem rgb(0,0,0.12);
+}
+/* .confetti{
+    max-width: 640px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    user-select: none;
+} */
+.msg{
+    margin : 10px;
+    height : 5vmin;  
+    color:rgb(246, 255, 0);
+    font-size:8vmin;
+}
+.container{
+    height : 70vh;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    gap:1.5vmin;
+}
+.game{
+    height : 60vmin;
+    width : 60vmin;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+    align-items : center;
+    gap : 2vmin;
+}
+.box{
+    height : 18vmin;
+    width : 18vmin;
+    background-color : #fff;
+    border-radius : 3rem;
+    border : none;
+    box-shadow: 0 0 1rem rgb(0,0,0.12);
+    font-size : 8vmin;
+    color : #b0413e;
+    transition: font-size .2s;
+    transition: transform .2s;
+    
+}
+.box:hover{
+    transform:scale(1.08);
+    font-size : 12vmin;
+    color : #e5ff00;
+    background-color : lightskyblue;
+}
+.btn-container{
+    height : 10vh;
+    display : flex;
+    justify-content : center;
+    gap:2vmin;
+}
+.btns{
+    width : 60vm;
+    display : flex;
+    justify-content : center;
+    gap : 20vmin;
+}
+#reset-btn{
+    padding : 1rem;
+    font-size: 1.25rem;
+    background-color : #750600;
+    color : white;
+    border:none;
+    border-radius : 3rem;
+    box-shadow: 0 0 1rem rgb(0,0,0.12);
+    transition: transform .2s;
+    transition: font-size .2s;
+}
+#reset-btn:hover{
+    /* transform:scale(1.16); */
+    background-color: yellow;
+    color:blue;
+    /* font-size:1.5rem; */
+}
+#new-btn{
+    padding : 1rem;
+    font-size: 1.25rem;
+    background-color : #750600;
+    color : white;
+    border:none;
+    border-radius : 3rem;
+    box-shadow: 0 0 1rem rgb(0,0,0.12);
+    transition: transform .2s;
+    transition: font-size .2s;
+}
+
+#new-btn:hover{
+    transform:scale(1.16);
+    background-color: yellow;
+    color:blue;
+    /* font-size:1.5rem; */
+}
